@@ -1,0 +1,97 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Poopins", sans-serif;
+}
+body{
+    background-color: #f5c355;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+    height: 100vh;
+}
+
+h1{
+    color: green;
+    font-family: "Lexend Deca Light";
+    font-size: 4rem;
+}
+
+span{
+    color: #fff;
+}
+
+#card-section{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 2rem;
+}
+
+/* created by js */
+/* .card{
+    width: 7rem;
+    height: 7rem;
+    background-color: #2D2727;
+    background-size: cover;
+    border-radius: .6rem;
+    box-shadow: rgba(149,157,165,0.5) 0px 8px 24px;
+    padding: 2rem;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.card_selected{
+    border: .2rem solid #2D2727;
+}
+
+.cardMatch{
+    border: .2rem solid #fff;
+} */
+
+
+/* writing new css for front and back div: */
+.card{
+    position: relative;
+    transition: all .4s linear;
+    transform-style: preserve-3d;
+}
+
+.card, .back_card, .front_card{
+    height: 7rem;
+    width: 7rem;
+}
+
+.back_card, .front_card{
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.front_card{
+    background: #fff;
+    background-size: content;
+    border-radius: .6rem;
+    box-shadow: rgba(149,157,165,0.5) 0px 8px 24px;
+    padding: 2rem;
+}
+
+.back_card{
+    transform: rotateY(180deg);
+    background-size: cover;
+    border-radius: .6rem;
+    box-shadow: rgba(149,157,165,0.5) 0px 8px 24px;
+    padding: 2rem;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.card_selected{
+    transform: rotateY(180deg);
+}
+
+.cardMatch .front_card{
+    background-color: black;
+} 
+

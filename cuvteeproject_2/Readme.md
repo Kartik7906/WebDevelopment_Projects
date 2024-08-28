@@ -1,4 +1,4 @@
-Task 2 - Web Development Internship Project
+# Task 2 - Web Development Internship Project
 # Overview
 This project, completed as part of my web development internship training program with Cuvette, demonstrates my proficiency in HTML and CSS. The primary focus of this task is to showcase complex layouts and designs using advanced Flexbox properties.
 
@@ -13,3 +13,7 @@ CSS: Styling language used to design the visual appearance of the page, with a f
 Mastery of Flexbox properties for creating responsive and complex web layouts.
 Improved skills in HTML and CSS for building sophisticated web designs.
 Enhanced understanding of modern web development practices and techniques.
+
+![image](https://github.com/user-attachments/assets/a9f9f4bc-7885-4725-9835-b962d1777a7f)
+![image](https://github.com/user-attachments/assets/a2882672-2766-455a-9322-5cda1f73d1cd)
+

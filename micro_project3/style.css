@@ -1,0 +1,24 @@
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/700.css';
+
+.bg-containercolor {
+    background-color: #3B4664;
+}
+.bg-darkblue{
+    background-color: #181F32;
+}
+.bg-keypadcolor{
+    background-color: #252D44;
+}
+.bg-buttoncolor{
+    background-color: #EAE3DB;
+}
+.bg-graycolor{
+    background-color: #647299;
+}
+.bg-equalbtncolor{
+    background-color: #D13F30;
+}
+.bg-fontcolor{
+    color: #FFFFFF;
+}

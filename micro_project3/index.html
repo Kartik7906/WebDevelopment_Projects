@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cal-MicroProject_3</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="bg-containercolor min-h-screen relative flex justify-center">
+      <div class="flex flex-col gap-2 my-auto">
+        <p class="bg-fontcolor text-lg font-bold font-Inter">Calc</p>
+        <div id="displaybox" class="h-24 w-96 bg-darkblue text-white shadow-md rounded-md text-right flex flex-col justify-center text-5xl font-bold px-5">0</div>
+        <div class="bg-keypadcolor w-96 shadow-md rounded-md text-red px-4 py-4 relative">
+          <div class="grid grid-cols-4 gap-4 p-4 w-full">
+            <button class="p-2 bg-buttoncolor rounded-md text-lg font-bold">7</button>
+            <button class="p-2 bg-buttoncolor rounded-md text-lg font-bold">8</button>
+            <button class="p-2 bg-buttoncolor rounded-md text-lg font-bold">9</button>
+            <button class="p-2 bg-graycolor text-white rounded-md text-lg font-bold">DEL</button>
+            <button class="p-2 bg-buttoncolor rounded-md text-lg font-bold">4</button>
+            <button class="p-2 bg-buttoncolor rounded-md text-lg font-bold">5</button>
+            <button class="p-2 bg-buttoncolor rounded-md text-lg font-bold">6</button>
+            <button class="p-2 bg-buttoncolor rounded-md text-lg font-bold">+</button>
+            <button class="p-2 bg-buttoncolor rounded-md text-lg font-bold">1</button>
+            <button class="p-2 bg-buttoncolor rounded-md text-lg font-bold">2</button>
+            <button class="p-2 bg-buttoncolor rounded-md text-lg font-bold">3</button>
+            <button class="p-2 bg-buttoncolor rounded-md text-lg font-bold">-</button>
+            <button class="p-2 bg-buttoncolor rounded-md text-lg font-bold">.</button>
+            <button class="p-2 bg-buttoncolor rounded-md text-lg font-bold">0</button>
+            <button class="p-2 bg-buttoncolor  rounded-md text-lg font-bold">/</button>
+            <button class="p-2 bg-buttoncolor  rounded-md text-lg font-bold">*</button>
+            <!-- Adjusting the last row -->
+            <div class="col-span-4 grid grid-cols-2 gap-2">
+              <button class="p-2 bg-graycolor text-white rounded-md text-lg font-bold">RESET</button>
+              <button class="p-2 bg-equalbtncolor text-white rounded-md text-lg font-bold">=</button>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
